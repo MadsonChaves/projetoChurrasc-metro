@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+   
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   height: 100vh;   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+  
+}
+
+
+.container {
+    width: 40rem;
+    padding: 30 ;
+}
+
+
+.new-task-container {
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 81, 0);
+    text-align: center;
+    color: orangered;
+    background: no-repeat center / cover url(/imagens/pexels-egecan-köse-11991854.jpg);
+    
+}
+.new-task-container input  {
+    margin-top: 1rem ;
+    padding: 1rem 10px ;
+    text-align: center;  
+    border-radius:10px ;
+    
+    
+} 
+
+.new-task-container :focus {
+    outline: none;
+    border-color: orangered;
+}
+
+.calcular {
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(255, 60, 0);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#resultado {
+    background-color: rgb(255, 96, 4);
+    padding: 50px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgb(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.result {
+    color: #fff;
+    text-align: center;
+    
+    
+}
+
+
